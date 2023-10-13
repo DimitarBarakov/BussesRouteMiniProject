@@ -1,0 +1,46 @@
+    html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.card{
+    width: 200px;
+    margin:10px 10px 10px 10px;
+}
+.cards{
+    position:absolute;
+    left:26%;
+    display:inline-flex;
+}
+img {
+    padding:0px 10px;
+    height: 200px;
+}
+h1{
+    text-align:center;
+}
+.upperCard {
+    text-align: center;
+    background-color: lightgray;
+    border: solid 1px;
+    border-radius: 10px;
+    height: 53px;
+    margin: 20px;
+}
+.showAndHide:hover{
+    cursor:pointer;
+}

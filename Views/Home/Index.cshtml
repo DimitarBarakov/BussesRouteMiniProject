@@ -1,0 +1,13 @@
+﻿@model StopsSearchModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <form method="get">
+        <label asp-for="StartingStop"></label>
+        <input asp-for="StartingStop" class="form-control" placeholder="...">
+    </form>
+</div>

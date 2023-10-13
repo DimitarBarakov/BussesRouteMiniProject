@@ -1,0 +1,22 @@
+﻿@model List<StopsByBusIdViewModel>
+
+@{
+    ViewBag.Title = "Автобус " + @Model.First().BusNumber;
+}
+
+<h1>Автобус @Model.First().BusNumber</h1>
+<div class="cards" style="display:block">
+    @for (int i = 0; i < Model.Count; i++)
+    {
+        <div style="width:600px">
+            <div class="upperCard">
+                @Model[i].Name
+                <p class="showAndHide">Покажи още..</p>
+            </div>
+            <div class="more" style="display:none">
+                <iframe src="@Model[i].Location" width="600" height="450" style="border:0; border-radius:5px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+             <p style="font-size:100px; text-align:center">&#129035;</p>
+        </div>
+    }
+</div>

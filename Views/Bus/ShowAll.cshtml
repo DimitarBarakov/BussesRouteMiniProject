@@ -1,0 +1,24 @@
+﻿@model List<AllBussesViewModel>
+@{
+    ViewBag.Title = "All Busses";
+}
+
+
+<h1>
+    All Busses
+</h1>
+<div class="cards">
+    @{
+        for (int i = 0; i < Model.Count; i++)
+        {
+            <div class="card">
+                <img src="~/imgs/bus.jpeg" class="card-img-top" alt="bus image">
+                <div class="card-body" style="justify-content:center">
+                    <h5 class="card-title">@Model[i].Number</h5>
+                    <a asp-controller="Stop" asp-action="ShowStopsByBusId" asp-route-id="@Model[i].Id" class="btn btn-primary">See Stops</a>
+                </div>
+            </div>
+        }
+    }
+</div>
+
