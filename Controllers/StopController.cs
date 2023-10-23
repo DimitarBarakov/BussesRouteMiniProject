@@ -1,4 +1,6 @@
 ﻿using BussesRouteMiniProject.Services.Interfaces;
+using BussesRouteMiniProject.Services.Services.Models;
+using BussesRouteMiniProject.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BussesRouteMiniProject.Controllers
@@ -16,6 +18,12 @@ namespace BussesRouteMiniProject.Controllers
             var stops = await stopService.GetStopsByBusIdAsync(id);
 
             return View(stops);
+        }
+        public async Task<IActionResult> ShowRoute([FromQuery]StopsSearchModel model)
+        {
+            List<AllBussesViewModel> busses = await stopService.GetRouteAsync(model);
+            model.Busses = busses;
+            return View(model);
         }
     }
 }

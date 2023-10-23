@@ -6,6 +6,6 @@ namespace BussesRouteMiniProject.Services.Interfaces
     public interface IStopService
     {
         public Task<List<StopsByBusIdViewModel>> GetStopsByBusIdAsync(int busId);
-        public Task GetRouteAsync(StopsSearchModel model);
+        public Task<List<AllBussesViewModel>> GetRouteAsync(StopsSearchModel model);
     }
 }

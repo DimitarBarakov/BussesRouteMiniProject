@@ -1,0 +1,33 @@
+﻿@model StopsSearchModel
+
+
+<form method="get">
+    <label asp-for="StartingStop"></label>
+    <input asp-for="StartingStop" class="form-control" placeholder="...">
+
+    <label asp-for="FinalStop"></label>
+    <input asp-for="FinalStop" class="form-control" placeholder="...">
+    <div class="form-group mt-4 p-2">
+        <input type="submit" value="Search" class="btn btn-primary" />
+    </div>
+</form>
+@{
+    if (Model.Busses.Count == 0)
+    {
+        <p>No routes found.</p>
+    }
+    else
+    {
+        foreach (var bus in Model.Busses)
+        {
+            <div class="card">
+                <img src="~/imgs/bus.jpeg" class="card-img-top" alt="bus image">
+                <div class="card-body" style="justify-content:center">
+                    <h5 class="card-title">@bus.Number</h5>
+                    <a asp-controller="Stop" asp-action="ShowStopsByBusId" asp-route-id="@bus.Id" class="btn btn-primary">See Stops</a>
+                </div>
+            </div>
+        }
+    }
+}
+
