@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\WORKSPACE\\BussesRouteMiniProject\\BussesRouteMiniProject\\BussesRouteMiniProject.csproj": {}
+    "E:\\WORKSPACE\\BussesRouteMiniProject\\BussesRouteMiniProject\\BussesRouteMiniProject\\BussesRouteMiniProject.csproj": {}
   },
   "projects": {
-    "E:\\WORKSPACE\\BussesRouteMiniProject\\BussesRouteMiniProject\\BussesRouteMiniProject.csproj": {
+    "E:\\WORKSPACE\\BussesRouteMiniProject\\BussesRouteMiniProject\\BussesRouteMiniProject\\BussesRouteMiniProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\WORKSPACE\\BussesRouteMiniProject\\BussesRouteMiniProject\\BussesRouteMiniProject.csproj",
+        "projectUniqueName": "E:\\WORKSPACE\\BussesRouteMiniProject\\BussesRouteMiniProject\\BussesRouteMiniProject\\BussesRouteMiniProject.csproj",
         "projectName": "BussesRouteMiniProject",
-        "projectPath": "E:\\WORKSPACE\\BussesRouteMiniProject\\BussesRouteMiniProject\\BussesRouteMiniProject.csproj",
+        "projectPath": "E:\\WORKSPACE\\BussesRouteMiniProject\\BussesRouteMiniProject\\BussesRouteMiniProject\\BussesRouteMiniProject.csproj",
         "packagesPath": "C:\\Users\\Mitko\\.nuget\\packages\\",
-        "outputPath": "E:\\WORKSPACE\\BussesRouteMiniProject\\BussesRouteMiniProject\\obj\\",
+        "outputPath": "E:\\WORKSPACE\\BussesRouteMiniProject\\BussesRouteMiniProject\\BussesRouteMiniProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -24,10 +24,20 @@
                 <img src="~/imgs/bus.jpeg" class="card-img-top" alt="bus image">
                 <div class="card-body" style="justify-content:center">
                     <h5 class="card-title">@bus.Number</h5>
-                    <a asp-controller="Stop" asp-action="ShowStopsByBusId" asp-route-id="@bus.Id" class="btn btn-primary">See Stops</a>
+                    <p class="showStops">See Stops</p>
+                    <div class="routeStops" style="display:none">
+                        @{
+                            foreach (var stop in bus.Stops)
+                            {
+                                <p>- @stop.Name</p>
+                            }
+                        }
+                    </div>
                 </div>
             </div>
         }
     }
 }
+<script src="~/js/ShowStopsInRoute.js"></script>
+<script src="https://kit.fontawesome.com/6326f1a500.js" crossorigin="anonymous"></script>
 

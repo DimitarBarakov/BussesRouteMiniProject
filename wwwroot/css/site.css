@@ -44,3 +44,6 @@ h1{
 .showAndHide:hover{
     cursor:pointer;
 }
+.showStops:hover {
+    cursor: pointer;
+}

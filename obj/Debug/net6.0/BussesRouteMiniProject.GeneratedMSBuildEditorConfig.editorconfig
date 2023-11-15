@@ -9,49 +9,49 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BussesRouteMiniProject
 build_property.RootNamespace = BussesRouteMiniProject
-build_property.ProjectDir = E:\WORKSPACE\BussesRouteMiniProject\BussesRouteMiniProject\
+build_property.ProjectDir = E:\WORKSPACE\BussesRouteMiniProject\BussesRouteMiniProject\BussesRouteMiniProject\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\WORKSPACE\BussesRouteMiniProject\BussesRouteMiniProject
+build_property.MSBuildProjectDirectory = E:\WORKSPACE\BussesRouteMiniProject\BussesRouteMiniProject\BussesRouteMiniProject
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/WORKSPACE/BussesRouteMiniProject/BussesRouteMiniProject/Views/Bus/ShowAll.cshtml]
+[E:/WORKSPACE/BussesRouteMiniProject/BussesRouteMiniProject/BussesRouteMiniProject/Views/Bus/ShowAll.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVzXFNob3dBbGwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/WORKSPACE/BussesRouteMiniProject/BussesRouteMiniProject/Views/Home/Index.cshtml]
+[E:/WORKSPACE/BussesRouteMiniProject/BussesRouteMiniProject/BussesRouteMiniProject/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/WORKSPACE/BussesRouteMiniProject/BussesRouteMiniProject/Views/Home/Privacy.cshtml]
+[E:/WORKSPACE/BussesRouteMiniProject/BussesRouteMiniProject/BussesRouteMiniProject/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/WORKSPACE/BussesRouteMiniProject/BussesRouteMiniProject/Views/Shared/Error.cshtml]
+[E:/WORKSPACE/BussesRouteMiniProject/BussesRouteMiniProject/BussesRouteMiniProject/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/WORKSPACE/BussesRouteMiniProject/BussesRouteMiniProject/Views/Shared/_ValidationScriptsPartial.cshtml]
+[E:/WORKSPACE/BussesRouteMiniProject/BussesRouteMiniProject/BussesRouteMiniProject/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/WORKSPACE/BussesRouteMiniProject/BussesRouteMiniProject/Views/Stop/ShowRoute.cshtml]
+[E:/WORKSPACE/BussesRouteMiniProject/BussesRouteMiniProject/BussesRouteMiniProject/Views/Stop/ShowRoute.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcFxTaG93Um91dGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/WORKSPACE/BussesRouteMiniProject/BussesRouteMiniProject/Views/Stop/ShowStopsByBusId.cshtml]
+[E:/WORKSPACE/BussesRouteMiniProject/BussesRouteMiniProject/BussesRouteMiniProject/Views/Stop/ShowStopsByBusId.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcFxTaG93U3RvcHNCeUJ1c0lkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/WORKSPACE/BussesRouteMiniProject/BussesRouteMiniProject/Views/_ViewImports.cshtml]
+[E:/WORKSPACE/BussesRouteMiniProject/BussesRouteMiniProject/BussesRouteMiniProject/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/WORKSPACE/BussesRouteMiniProject/BussesRouteMiniProject/Views/_ViewStart.cshtml]
+[E:/WORKSPACE/BussesRouteMiniProject/BussesRouteMiniProject/BussesRouteMiniProject/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/WORKSPACE/BussesRouteMiniProject/BussesRouteMiniProject/Views/Shared/_Layout.cshtml]
+[E:/WORKSPACE/BussesRouteMiniProject/BussesRouteMiniProject/BussesRouteMiniProject/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ycgpm388r3
