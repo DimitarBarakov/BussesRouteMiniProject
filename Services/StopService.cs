@@ -21,7 +21,7 @@ namespace BussesRouteMiniProject.Services
             var busses = _context.Busses;
             foreach (var bus in busses)
             {
-                bus.Stops = await _context.BussesStops.Where(bs => bs.BussId == bus.Id).Select(bs=>new BussesStops()
+                bus.Stops = await _context.BussesStops.Where(bs => bs.BussId == bus.Id).Select(bs => new BussesStops()
                 {
                     Stop = bs.Stop
                 }).ToListAsync();
@@ -34,14 +34,20 @@ namespace BussesRouteMiniProject.Services
                 string finalStopWildCard = model.FinalStop.ToLower();
                 foreach (var bus in busses)
                 {
+                    //bool busHasStartingStop = bus.Stops.Any(s => s.Stop.Name.ToLower().Contains(startingStopWildCard));
+                    //bool busHasFinalStop = bus.Stops.Any(s => s.Stop.Name.ToLower().Contains(finalStopWildCard));
 
-                    if (bus.Stops.Any(s => s.Stop.Name.ToLower().Contains(startingStopWildCard))
-                        && bus.Stops.Any(s => s.Stop.Name.ToLower().Contains(finalStopWildCard)))
+                    BussesStops? startingStop = bus.Stops.FirstOrDefault(s => s.Stop.Name.ToLower().Contains(startingStopWildCard));
+                    BussesStops? finalStop = bus.Stops.FirstOrDefault(s => s.Stop.Name.ToLower().Contains(finalStopWildCard));
+
+                    if (startingStop != null && finalStop != null)
                     {
                         AllBussesViewModel busToAdd = new AllBussesViewModel()
                         {
                             Id = bus.Id,
-                            Stops = bus.Stops.Select(s => new Stop
+                            Stops = bus.Stops
+                            .Where(s => s.Stop.Id >= startingStop.Stop.Id && s.Stop.Id <= finalStop.Stop.Id)
+                            .Select(s => new Stop
                             {
                                 Id = s.Stop.Id,
                                 Number = s.Stop.Number,

@@ -16,7 +16,10 @@
             <div class="more" style="display:none">
                 <iframe src="@Model[i].Location" width="600" height="450" style="border:0; border-radius:5px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-             <p style="font-size:100px; text-align:center">&#129035;</p>
+            @if (i < Model.Count - 1)
+            {
+                <p style="font-size:100px; text-align:center">&#129035;</p>
+            }
         </div>
     }
 </div>
